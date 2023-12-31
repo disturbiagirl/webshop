@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: 0, 0, 0;
+  --secondary: 242, 174, 157;
+  --dark: 14, 13, 36;
+  --accent: 238, 67, 12:
+}
+
+body {
+  color: rgb(242, 174, 157);
+  background: rgb(219, 234, 255);
+  font-family: "Proxima Nova", system-ui, sans-serif;
+}
+
+.rotate-icon {
+  transform: rotate(180deg); /* You can adjust the degree of rotation */
+  transition: transform 0.3s ease; /* You can adjust the duration and easing function */
+}
+
+.rotate-icon-two {
+  transform: rotate(-180deg); /* You can adjust the degree of rotation */
+  transition: transform 0.3s ease; /* You can adjust the duration and easing function */
+}
